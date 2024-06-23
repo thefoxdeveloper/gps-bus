@@ -8,7 +8,7 @@ export default function Home() {
 	const busPosition = useContext;
 
 	return (
-		<main className="">
+		<main>
 			<BusProvider>
 				<Dashboard />
 			</BusProvider>

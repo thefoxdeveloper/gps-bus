@@ -41,6 +41,7 @@ import { Toggle } from "@/components/ui/toggle";
 import { useContext } from "react";
 import { BusContext } from "@/context/BusContext";
 import { busList } from "@/data/data";
+import FavBtn from "@/components/favbtn/favBtn";
 
 export function Dashboard() {
 	const context = useContext(BusContext);
@@ -86,13 +87,7 @@ export function Dashboard() {
 									<Bus className="h-4 w-4" />
 									{bus.linha}
 
-									<Toggle
-										size="sm"
-										aria-label="Toggle italic"
-										className="ml-auto"
-									>
-										<Star className="h-4 w-4" />
-									</Toggle>
+									<FavBtn id={bus.id} />
 								</Toggle>
 							))}
 
@@ -116,13 +111,7 @@ export function Dashboard() {
 											<Bus className="h-4 w-4" />
 											{bus.linha}
 
-											<Toggle
-												size="sm"
-												aria-label="Toggle italic"
-												className="ml-auto"
-											>
-												<Star className="h-4 w-4" />
-											</Toggle>
+											<FavBtn id={bus.id} />
 										</Toggle>
 									),
 							)}
@@ -171,13 +160,7 @@ export function Dashboard() {
 										<Bus className="h-4 w-4" />
 										{bus.linha}
 
-										<Toggle
-											size="sm"
-											aria-label="Toggle italic"
-											className="ml-auto"
-										>
-											<Star className="h-4 w-4" />
-										</Toggle>
+										<FavBtn id={bus.id} />
 									</Toggle>
 								))}
 
@@ -201,13 +184,7 @@ export function Dashboard() {
 												<Bus className="h-4 w-4" />
 												{bus.linha}
 
-												<Toggle
-													size="sm"
-													aria-label="Toggle italic"
-													className="ml-auto"
-												>
-													<Star className="h-4 w-4" />
-												</Toggle>
+												<FavBtn id={bus.id} />
 											</Toggle>
 										),
 								)}

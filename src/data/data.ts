@@ -1,102 +1,72 @@
 export const busList: Bus[] = [
     {
         id: 1,
-        linha: "T1",
+        linha: "Linha T1",
         sentido: "Bairro-Centro",
         position: {
-            lat: -29.3742191,
-            lng: -51.1131475
+            lat: -29.368450489367746,
+            lng: -51.11446947610205
         },
         itsNear: false,
     },
     {
         id: 2,
-        linha: "T2",
+        linha: "Linha T2",
         sentido: "Centro-Bairro",
         position: {
-            lat: -29.3738592,
-            lng: -51.1162291
+            lat: -29.37439692123017,
+            lng: -51.107603021441456
         },
         itsNear: true,
     },
     {
         id: 3,
-        linha: "T3",
+        linha: "Linha T3",
         sentido: "Bairro-Centro",
         position: {
-            lat: -29.3721592,
-            lng: -51.1108391
+            lat: -29.37411643696691,
+            lng: -51.11773104206584
         },
         itsNear: false,
     },
     {
         id: 4,
-        linha: "T4",
+        linha: "Linha T4",
         sentido: "Centro-Bairro",
         position: {
-            lat: -29.3757592,
-            lng: -51.1148391
+            lat: -29.367403282929324,
+            lng: -51.09331221203711
         },
         itsNear: true,
     },
     {
         id: 5,
-        linha: "T5",
+        linha: "Linha T5",
         sentido: "Bairro-Centro",
         position: {
-            lat: -29.3767592,
-            lng: -51.1158391
+            lat: -29.362344750493236,
+            lng: -51.1028501468674
         },
         itsNear: false,
     },
     {
         id: 6,
-        linha: "T6",
+        linha: "Linha T6",
         sentido: "Centro-Bairro",
         position: {
-            lat: -29.3777592,
-            lng: -51.1168391
+            lat: -29.36217644008227,
+            lng: -51.09196037868903
         },
         itsNear: true,
     },
     {
         id: 7,
-        linha: "T7",
+        linha: "Linha T7",
         sentido: "Bairro-Centro",
         position: {
-            lat: -29.3787592,
-            lng: -51.1178391
-        },
-        itsNear: true,
-    },
-    {
-        id: 8,
-        linha: "T8",
-        sentido: "Centro-Bairro",
-        position: {
-            lat: -29.3797592,
-            lng: -51.1188391
-        },
-        itsNear: true,
-    },
-    {
-        id: 9,
-        linha: "T9",
-        sentido: "Bairro-Centro",
-        position: {
-            lat: -29.3807592,
-            lng: -51.1198391
-        },
-        itsNear: false,
-    },
-    {
-        id: 10,
-        linha: "T10",
-        sentido: "Centro-Bairro",
-        position: {
-            lat: -29.3817592,
-            lng: -51.1208391
+            lat: -29.36554259497826,
+            lng: -51.08922452566021
         },
         itsNear: true,
     }
-]
+];
